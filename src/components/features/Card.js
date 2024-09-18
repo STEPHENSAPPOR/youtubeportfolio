@@ -12,10 +12,10 @@ const Card = ({item:{title,des,icon}}) => {
               <span className="text-5xl text-designColor">{icon}</span>
             ) : (
               <>
-                <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
-                <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
-                <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
-                <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
+                <span className="w-full h-[2px] rounded-lg bg-[#FF014F] inline-flex"></span>
+                <span className="w-full h-[2px] rounded-lg bg-[#FF014F] inline-flex"></span>
+                <span className="w-full h-[2px] rounded-lg bg-[#FF014F] inline-flex"></span>
+                <span className="w-full h-[2px] rounded-lg bg-[#FF014F] inline-flex"></span>
               </>
             )}
           </div>

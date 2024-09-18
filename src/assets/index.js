@@ -7,6 +7,9 @@ import testimonialOne from "./images/testmonial/testimonialOne.png";
 import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
+import imperial from "./images/projects/imperial.jpg";
+import fleetz from "./images/projects/fleetz.jpg";
+import tube from "./images/projects/tube.jpg";
 
 export {
   logo,
@@ -14,6 +17,9 @@ export {
   projectOne,
   projectTwo,
   projectThree,
+  tube,
+  imperial,
+  fleetz,
   testimonialOne,
   testimonialTwo,
   quote,

@@ -11,53 +11,51 @@ const Achievement = () => {
     >
       <div>
         <div className="py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
-          <h2 className="text-4xl font-bold">Company Experience</h2>
+        <h2 className="text-xl text-designColor font-bold">CERTIFICATES</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
-            result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            title="Frontend Web Developer"
+            subTitle="Mest Africa"
+            result="August - 2024"
+           
           />
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
-            result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            title="AWS Certified Cloud Practitioner"
+            subTitle="Amalitech Ghana"
+            result="May - 2024"
+           
           />
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
-            result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            title="Cybersecurity"
+            subTitle="Cargill Ghana"
+            result="July - 2023"
+           
           />
         </div>
       </div>
       <div>
         <div className="py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
-          <h2 className="text-4xl font-bold">Job Experience</h2>
+          <h2 className="text-xl text-designColor font-bold">ONLINE COURSE CERTIFICATES</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
-            result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            title="Open Source Models"
+            subTitle="UNICEF"
+            result="September - 2024"
+           
           />
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
-            result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            title="Google Data Analytics"
+            subTitle="Coursera"
+            result="October - 2023"
+           
           />
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
-            result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            title="Python"
+            subTitle="DataCamp"
+            result="December - 2023"
+           
           />
         </div>
       </div>
