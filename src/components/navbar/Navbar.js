@@ -49,13 +49,18 @@ const Navbar = () => {
           <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
-                <img className="" src={logo} alt="logo" />
+                {/* Adjust logo size and force it into a circular shape */}
+                <img
+                  src={logo}
+                  alt="logo"
+                  className="w-16 h-16 object-cover rounded-full"
+                />
               </div>
               <ul className="flex flex-col gap-4">
                 {navLinksdata.map((item) => (
                   <li
                     key={item._id}
-                    className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-[#FF014F] duration-300"
+                    className="text-base font-normal text-[#FF014F] tracking-wide cursor-pointer hover:text-[#FF014F] duration-300"
                   >
                     <Link
                       onClick={() => setShowMenu(false)}
@@ -75,14 +80,14 @@ const Navbar = () => {
                 <h2 className="text-base uppercase font-titleFont mb-4">
                   Find me on
                 </h2>
-                <div className="flex gap-4 ">
-                  <span className="bannerIcon">
-                    <FaTwitter />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaLinkedinIn />
-                  </span>
-                </div>
+                <div className="flex gap-4">
+          <a href="https://x.com/De_audacity" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+            <FaTwitter />
+          </a>
+          <a href="https://www.linkedin.com/in/stephensappor/" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+            <FaLinkedinIn />
+          </a>
+        </div>
               </div>
               <span
                 onClick={() => setShowMenu(false)}
