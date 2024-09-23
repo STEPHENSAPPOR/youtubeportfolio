@@ -41,7 +41,7 @@ const Projects = () => {
         />
         <ProjectsCard
           title="Ghana Hazard Project"
-          des=" I developed a Ghana Hazard Reporter platform using React, TypeScript, 
+          des=" I contribute to an Open Source project, a Ghana Hazard Reporter platform using React, TypeScript, 
           and Tailwind CSS, focusing on a responsive design and user-friendly interface for reporting and viewing hazards.!"
           src={projectThree}
           githubLink="https://github.com/STEPHENSAPPOR/ghana-hazard-reporter"
