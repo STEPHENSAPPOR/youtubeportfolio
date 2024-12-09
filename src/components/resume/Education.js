@@ -21,11 +21,11 @@ const Education = () => {
             subTitle="University of Cape Coast"
             result="Cape Coast"
           />
-          <ResumeCard
+          {/* <ResumeCard
             title="WASSCE General Science"
             subTitle="St. John's Grammar School"
             result="Achimota - Accra"
-          />
+          /> */}
           
         </div>
       </div>
